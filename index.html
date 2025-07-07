@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carlos Pizarro Morales">
+    <meta name="description" content="Evaluación del módulo 2 del curso Full Stack JS con Skillnest.">
+    <meta name="keywords" content="fundamentos web, html, css, js, jquery, bootstrap css, git, github">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- 🤓☝️
+      Por buena práctica y para limpiar el body agrego los scripts en el head de mi archivo.
+      1. Veo de inmediato las dependencias de mi proyecto de forma ordenada.
+      2. Puedo depurar errores de carga por la falta de defer de una sola mirada.
+      3. No abulto el body con scripts que pueden romperse mientras se mantiene el footer o crea contenido.
+      Más información en la documentación oficial: 
+      https://html.spec.whatwg.org/multipage/scripting.html#attr-script-defer
+    -->
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d4e102f18b.js" crossorigin="anonymous"></script>
+    <script defer src="./assets/js/main.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>SecureNet</title>
+  </head>
+
+  <body class="d-flex flex-column min-vh-100 justify-content-between">
+    <nav class="navbar navbar-expand-lg p-5" data-bs-theme="dark">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fs-1 fw-medium" href="#"><img src="./assets/img/isotipo.png" alt="" class="logo">SecureNet</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="./assets/pages/amenazas.html">Amenazas</a>
+            <a class="nav-link" href="./assets/pages/consejos.html">Consejos</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="container px-5">
+      <div class="content-background p-5 rounded-5 lh-base">
+        <h1 class="mb-5">¿Qué es la ciberseguridad y por qué importa?</h1>
+        <p>Vivimos en una era donde la información fluye a velocidades vertiginosas y nuestras vidas están cada vez más conectadas. La ciberseguridad es el conjunto de prácticas, tecnologías y procesos diseñados para proteger sistemas, redes y datos frente a accesos no autorizados, ataques o daños.</p>
+        <p>Desde proteger tu correo electrónico hasta salvaguardar la infraestructura crítica de una empresa, la ciberseguridad es esencial para garantizar la confidencialidad, integridad y disponibilidad de la información. Estos tres pilares —conocidos como la triada CIA— son la base de toda estrategia de seguridad digital.</p>
+        <p>Los profesionales de ciberseguridad no solo detectan y responden a amenazas, sino que también anticipan riesgos, implementan controles y educan a los usuarios para crear entornos digitales más seguros. En un mundo donde los ataques cibernéticos son cada vez más sofisticados, la ciberseguridad ya no es opcional: es una necesidad.</p>
+      </div>
+    </main>
+    <footer class="container-fluid footer text-center d-flex align-items-center py-4">
+      <p class="flex-grow-1 ms-lg-5">
+        Made with 
+        <i class="fa-solid fa-heart mx-1"></i>  
+        by 8Fold
+        <!-- <img src="./assets/img/footer.png" class="footer__img" alt="the eightfold way"> -->
+      </p>
+      <p class="footer__contactus me-5 fs-6">Contact us <a href="https://github.com/gh-de-carlos"><i class="fa-brands fa-github ms-1"></i></a></p>
+    </footer>
+  </body>
+<!-- lh-1 sm base lg -->
+</html>
