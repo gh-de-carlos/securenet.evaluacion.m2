@@ -28,7 +28,27 @@ body {
 
 .content-background {
   background-color: #00000088;
+}
 
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  background-color: #03103a88;
+  background: linear-gradient(to left, #03103a88, #0733c288);
+}
+
+.advice {
+  background-color: #7c021a;
+  background: linear-gradient(to left, #7c021a, #5c0214);
+}
+
+.accordion-item {
+  background-color: #03103a88;
+  background: linear-gradient(to left, #03103a88, #0733c288);
+  color: #e0e0e0;
 }
 
 .footer {

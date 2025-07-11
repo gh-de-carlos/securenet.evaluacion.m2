@@ -85,7 +85,7 @@ C. Uso de git y GitHub
 * [][]
 
 <!-- Enlaces referenciados arriba -->
-[0]:./assets/utils/mockup.png
+[0]:./assets/img/entrega.png
 [1]:
 [2]:
 [3]:

@@ -5,78 +5,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Carlos Pizarro Morales">
-    <meta name="description" content="Actividad aeN1 individual del módulo N2 del curso Full Stack con Skillnest.">
-
+    <meta name="description" content="Evaluación del módulo 2 del curso Full Stack JS con Skillnest.">
+    <meta name="keywords" content="fundamentos web, html, css, js, jquery, bootstrap css, git, github">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,200,0,0&icon_names=cancel,check_circle,settings&display=block">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" href="/favicon.png" type="image/png">
-    <!-- 
+    <!-- 🤓☝️
       Por buena práctica y para limpiar el body agrego los scripts en el head de mi archivo.
-      El atributo defer logra que el proceso de evaluación del código se realice SOLO cuando
-      el archivo html se ha parseado completamente. Además, el proceso es más eficiente que 
-      el uso del script al final del body porque defer realiza el request de forma paralela
-      al parseo del archivo html. Más información en la documentación oficial: 
+      1. Veo de inmediato las dependencias de mi proyecto de forma ordenada.
+      2. Puedo depurar errores de carga por la falta de defer de una sola mirada.
+      3. No abulto el body con scripts que pueden romperse mientras se mantiene el footer o crea contenido.
+      Más información en la documentación oficial: 
       https://html.spec.whatwg.org/multipage/scripting.html#attr-script-defer
     -->
-    <script src="../js/main.js" defer></script>
-
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d4e102f18b.js" crossorigin="anonymous"></script>
+    <script defer src="../js/main.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../../favicon.png?v2" type="image/png">
     <title>SecureNet</title>
   </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg">
+  <body class="d-flex flex-column min-vh-100 justify-content-between">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg p-5" data-bs-theme="dark">
       <div class="container-fluid px-5">
-        <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="" class="logo"></a>
+        <a class="navbar-brand fs-1 fw-medium" href="#"><img src="../img/isotipo.png" alt="" class="logo">SecureNet</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link" href="../../index.html">Home</a>
+            <a class="nav-link" href="../../index.html">Inicio</a>
             <a class="nav-link" href="./consejos.html">Consejos</a>
           </div>
         </div>
       </div>
     </nav>
-    
-    <main>
-      <figure>
-        <figcaption>🕵️‍♂️ Phishing</figcaption>
-        <p>El phishing es un intento de engañar a los usuarios para que revelen información confidencial, como contraseñas o datos bancarios, haciéndose pasar por una entidad confiable.</p>
-        <p>Ejemplo común: un correo que aparenta ser de tu banco solicitando que verifiques tu cuenta.</p>
-        <p>🔐 Consejo: Nunca hagas clic en enlaces sospechosos ni compartas datos personales sin verificar la fuente.</p>
-        <span>ACA TIENE QUE IR UNA IMAGEN</span>
-      </figure>
-      <figure>
-        <figcaption>💣 Ransomware</figcaption>
-        <p>El ransomware es un tipo de software malicioso que cifra tus archivos y exige un rescate para liberarlos.</p>
-        <p>Impacto: Puede paralizar empresas enteras, hospitales o gobiernos.</p>
-        <p>🔐 Consejo: Mantén copias de seguridad actualizadas y evita descargar archivos de fuentes desconocidas.</p>
-        <span>ACA TIENE QUE IR UNA IMAGEN</span>
-      </figure>
-      <figure>
-        <figcaption>🦠 Malware</figcaption>
-        <p>“Malware” es un término general para cualquier software diseñado con fines maliciosos, como espiar, robar información o dañar sistemas.</p>
-        <p>Tipos comunes: troyanos, spyware, adware y gusanos.</p>
-        <p>🔐 Consejo: Usa software antivirus actualizado y evita instalar programas de dudosa procedencia.</p>
-        <span>ACA TIENE QUE IR UNA IMAGEN</span>
-      </figure>
-      <figure>
-        <figcaption>🌐 Ataques DDoS</figcaption>
-        <p>Los ataques de denegación de servicio distribuido (DDoS) buscan saturar un servidor o red con tráfico falso para que deje de funcionar.</p>
-        <p>Objetivo: Interrumpir servicios en línea, como sitios web o plataformas de pago.</p>
-        <p>🔐 Consejo: Las empresas deben implementar firewalls y servicios de mitigación para protegerse.</p>
-        <span>ACA TIENE QUE IR UNA IMAGEN</span>
-      </figure>
+    <!-- MAIN -->
+    <h1 class="mb-5 text-center fw-bold">AMENAZAS</h1>
+    <main class="container p-3 mb-5 content-background rounded-5 ">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 lh-base">
+        <section class="col">
+          <figure class="card bg-dark text-light rounded-4">
+            <img class="card-img-top rounded-top-5" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.espacios.net.mx%2Fwp-content%2Fuploads%2F2022%2F09%2Fque-es-phishing-pharming-1200x675.jpg&f=1&nofb=1&ipt=0bd3eb0968cd28337572dc3dd9238f86259e1d824158758b1e12a3ba002f077f" alt="phishing">
+            <div class="card-body">
+              <figcaption class="card-title fs-3 fw-medium">🕵️‍♂️ Phishing</figcaption class="card-title">
+              <p class="card-text">El phishing es un intento de engañarte para que reveles información confidencial, como tus contraseñas o datos bancarios, haciéndose pasar por una entidad confiable. Generalmente a través de correos o mensajes que aparentan ser una entidad confiable.</p>
+              <p class="card-text advice m-0 p-3 rounded-2">🔐 Consejo: Nunca hagas clic en enlaces sospechosos ni compartas datos personales sin verificar la fuente.</p>
+            </div>
+          </figure>
+        </section>
+        <section class="col">
+          <figure class="card bg-dark text-light">
+            <img class="card-img-top" src="https://info.lse.ac.uk/staff/divisions/dts/assets/images/cyber-security-updates/Ransomware-Attacks/Ransomware.jpeg" alt="ransomware">
+            <div class="card-body">
+              <figcaption class="card-title fs-3 fw-medium">💣 Ransomware</figcaption class="card-title">
+              <p class="card-text">El ransomware es un tipo de software malicioso que cifra tus archivos y exige un rescate para liberarlos. Una vez que has sido atacado ya no puedes acceder a tus archivos sin pagar a los secuestradores. Es mucho más frecuente contra grandes entidades.</p>
+              <p class="card-text advice m-0 p-3 rounded-2">🔐 Consejo: Mantén copias de seguridad actualizadas y evita descargar archivos de fuentes desconocidas.</p>
+            </div>
+          </figure>
+        </section>
+        <section class="col">
+          <figure class="card bg-dark text-light">
+            <img class="card-img-top" src="https://www.redseguridad.com/wp-content/uploads/sites/2/2020/08/malware-ciberataques.jpg" alt="malware">
+            <div class="card-body">
+              <figcaption class="card-title fs-3 fw-medium">🦠 Malware</figcaption class="card-title">
+              <p class="card-text">“Malware” es un término general que se aplica a cualquier software diseñado con fines maliciosos, como espiar, robar información o dañar sistemas tanto personales como de organizaciones. Algunos de los tipos más comunes son troyanos, spyware, adware y gusanos.</p>
+              <p class="card-text advice m-0 p-3 rounded-2">🔐 Consejo: Usa software antivirus actualizado y evita instalar programas de dudosa procedencia.</p>
+            </div>
+          </figure>
+        </section>
+        <section class="col">
+          <figure class="card bg-dark text-light">
+            <img class="card-img-top" src="https://www.indusface.com/wp-content/uploads/2020/09/Interal-How-Does-a-DDoS-Attack-Work-1.png" alt="ddos attack">
+            <div class="card-body">
+              <figcaption class="card-title fs-3 fw-medium">🌐 Ataques DDoS</figcaption class="card-title">
+              <p class="card-text">Los ataques de denegación de servicio distribuido (DDoS) son un tipo especial de amenaza de gran escala que buscan saturar un servidor o red con tráfico falso para que deje de funcionar y a veces dejarlo vulnerable a otro tipo de ataques. Esta amenaza a grandes organizaciones.</p>
+              <p class="card-text advice m-0 p-3 rounded-2">🔐 Consejo: Las empresas deben implementar firewalls y servicios de mitigación para protegerse.</p>
+            </div>
+          </figure>
+        </section>
+      </div>
     </main>
-    <aside>
-        <h1>ACA VA UN ACORDEON O CAROUSEL CON EL CONTENIDO FALTANTE</h1>
-    </aside>
+    <section class="container mb-5">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Accordion Item #1 </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Accordion Item #2 </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Accordion Item #3 </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Accordion Item #3 </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="container-fluid footer text-center d-flex align-items-center py-4">
+      <p class="flex-grow-1 ms-lg-5"> Made with <i class="fa-solid fa-heart mx-1"></i> by 8Fold </p>
+      <p class="footer__contactus me-5 fs-6">Contact us <a href="https://github.com/gh-de-carlos"><i class="fa-brands fa-github ms-1"></i></a></p>
+    </footer>
   </body>
 
 </html>
