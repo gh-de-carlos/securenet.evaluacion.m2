@@ -13,6 +13,7 @@
 
 body {
   min-height: 100vh;
+  background-color: darkblue;
   background-image: url("../img/hero.jpg");
   background-size: cover;
   background-position: center;
@@ -47,8 +48,25 @@ body {
 
 .accordion-item {
   background-color: #03103a88;
-  background: linear-gradient(to left, #03103a88, #0733c288);
+  background: linear-gradient(to left, #03103aaa, #0733c2aa);
+  background: linear-gradient(to left, #7c021a, #5c0214);
   color: #e0e0e0;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(90deg);
+}
+
+.accordion-button::after {
+  content: "👇";
+  /* background-image: var(--bs-accordion-btn-icon);
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition); */
+}
+
+h2 {
+  background: linear-gradient(to left, #0a1741cc, #0c132ccc);
 }
 
 .footer {

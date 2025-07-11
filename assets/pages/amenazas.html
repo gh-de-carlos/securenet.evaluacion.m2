@@ -50,8 +50,8 @@
     <main class="container p-3 mb-5 content-background rounded-5 ">
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 lh-base">
         <section class="col">
-          <figure class="card bg-dark text-light rounded-4">
-            <img class="card-img-top rounded-top-5" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.espacios.net.mx%2Fwp-content%2Fuploads%2F2022%2F09%2Fque-es-phishing-pharming-1200x675.jpg&f=1&nofb=1&ipt=0bd3eb0968cd28337572dc3dd9238f86259e1d824158758b1e12a3ba002f077f" alt="phishing">
+          <figure class="card bg-dark text-light">
+            <img class="card-img-top" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.espacios.net.mx%2Fwp-content%2Fuploads%2F2022%2F09%2Fque-es-phishing-pharming-1200x675.jpg&f=1&nofb=1&ipt=0bd3eb0968cd28337572dc3dd9238f86259e1d824158758b1e12a3ba002f077f" alt="phishing">
             <div class="card-body">
               <figcaption class="card-title fs-3 fw-medium">🕵️‍♂️ Phishing</figcaption class="card-title">
               <p class="card-text">El phishing es un intento de engañarte para que reveles información confidencial, como tus contraseñas o datos bancarios, haciéndose pasar por una entidad confiable. Generalmente a través de correos o mensajes que aparentan ser una entidad confiable.</p>
@@ -92,44 +92,53 @@
       </div>
     </main>
     <section class="container mb-5">
+      <h2 class="text-center text-light py-2">Casos de la vida real</h2>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Accordion Item #1 </button>
+            <button class="accordion-button bg-dark text-light fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">🕵️‍♂️ Phishing</button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <h3>El ataque a Google y Facebook</h3>
+              <p> Entre 2013 y 2015, un ciberdelincuente lituano engañó a empleados de Google y Facebook con correos falsos que imitaban a un proveedor legítimo. Resultado: ambas empresas transfirieron más de 100 millones de dólares a cuentas fraudulentas.</p>
+              <p>📌 Lección: Incluso las grandes empresas pueden caer si no se verifica la autenticidad de los correos<a class="text-decoration-none fw-semibold text-warning" href="https://www.cnbc.com/2019/03/27/phishing-email-scam-stole-100-million-from-facebook-and-google.html"> 🔗Leer más acá</a></p>
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Accordion Item #2 </button>
+            <button class="accordion-button collapsed text-light bg-dark fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">💣 Ransomware</button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <h3>El ataque a Colonial Pipeline (2021)</h3>
+              <p>Un grupo llamado DarkSide lanzó un ataque de ransomware que paralizó el mayor oleoducto de EE. UU., provocando escasez de combustible en varias regiones. La empresa pagó 4,4 millones de dólares en rescate.</p>
+              <p>📌 Lección: La infraestructura crítica también es vulnerable. Las copias de seguridad y la segmentación de redes son esenciales.<a class="text-decoration-none fw-semibold text-warning" href="https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack"> 🔗Leer más acá</a></p>
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Accordion Item #3 </button>
+            <button class="accordion-button collapsed text-light bg-dark fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">🦠 Malware</button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <h3>El troyano Emotet</h3>
+              <p>Durante años, Emotet infectó miles de sistemas en todo el mundo mediante correos con archivos adjuntos maliciosos. Se usaba para robar credenciales bancarias y distribuir otros tipos de malware.</p>
+              <p>📌 Lección: Un solo clic puede abrir la puerta a múltiples amenazas. La educación del usuario es clave. <a class="text-decoration-none fw-semibold text-warning" href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-280a"> 🔗Leer más acá</a></p>
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Accordion Item #3 </button>
+            <button class="accordion-button collapsed text-light bg-dark fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">🌐 Ataques DDoS</button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <h3>El ataque a Dyn (2016)</h3>
+              <p>Un ataque DDoS masivo dirigido a Dyn, un proveedor de DNS, interrumpió servicios como Twitter, Netflix y Spotify en EE. UU. El ataque fue posible gracias a una red de dispositivos IoT comprometidos.</p>
+              <p>📌 Lección: La seguridad no solo depende de servidores, sino también de dispositivos conectados.<a class="text-decoration-none fw-semibold text-warning" href="https://en.wikipedia.org/wiki/DDoS_attacks_on_Dyn"> 🔗Leer más acá</a></p>
             </div>
           </div>
         </div>
