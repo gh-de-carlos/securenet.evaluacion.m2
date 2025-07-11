@@ -22,14 +22,14 @@ Deberás diseñar un sitio web de tres páginas con el siguiente contenido:
    1. ✔️Introducción a la ciberseguridad
    2. ✔️Barra de navegación con enlaces a las demás secciones.
    3. ✔️Imagen destacada con un mensaje llamativo.
-2. Amenazas Comunes
+2. ✔️Amenazas Comunes
    1. ✔️Información sobre ataques cibernéticos como phishing, ransomware, malware y ataques DDoS.
    2. ✔️Uso de tarjetas o secciones interactivas para cada tipo de amenaza.
    3. ✔️Un carousel o acordeón con ejemplos de casos reales.
-3. Consejos de seguridad
-   1. Lista de buenas prácticas para protegerse en línea.
-   2. Formulario de contacto para solicitar más información (con validación en Javascript).
-   3. Un modal con un "test de seguridad" donde el usuario pueda responder preguntas básicas y recibir retroalimentación.
+3. ✔️Consejos de seguridad
+   1. ✔️Lista de buenas prácticas para protegerse en línea.
+   2. ✔️Formulario de contacto para solicitar más información (con validación en Javascript).
+   3. ✔️Un modal con un "test de seguridad" donde el usuario pueda responder preguntas básicas y recibir retroalimentación.
 
 B. Diseño y estilo
 
@@ -41,7 +41,7 @@ B. Diseño y estilo
 C. Uso de git y GitHub
 
 - ✔️Inicializar el repositorio con `git init`.
-- Realizar mínimo 5 commits con mensajes descriptivos.
+- ✔️Realizar mínimo 5 commits con mensajes descriptivos.
 - ✔️Configurar `.gitignore` para excluir archivos innecesarios.
 - ✔️Publicar el código en GitHub y compartir el enlace.
 - ✔️Documentar el proyecto en `README.md`, explicando su estructura y funcionalidad. 

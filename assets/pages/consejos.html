@@ -22,8 +22,8 @@
     <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/d4e102f18b.js" crossorigin="anonymous"></script>
-    <script defer src="./assets/js/main.js"></script>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="../js/main.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="favicon.png" type="image/png">
     <title>SecureNet</title>
   </head>
@@ -38,27 +38,160 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link" href="./assets/pages/amenazas.html">Amenazas</a>
-            <a class="nav-link" href="./assets/pages/consejos.html">Consejos</a>
+            <a class="nav-link" href="../../index.html">Inicio</a>
+            <a class="nav-link" href="./amenazas.html">Amenazas</a>
+            <a class="btn btn-danger ms-3 fw-bold" href="./amenazas.html" title="🧠¿Hagamos un quiz?📖" data-bs-toggle="modal" data-bs-target="#test-seguridad" data-bs-toggle="tooltip">¿Cuánto aprendi?</a>
           </div>
         </div>
       </div>
     </nav>
     <main class="container px-5">
-      <h1 class="mb-5">CONSEJOS</h1>
-      <div class="row content-background p-5 rounded-5 lh-base">
-        <!-- CONSEJOS -->
-        <hgroup>
-          <h1>Consejos de seguridad</h1>
-          <p>Lista de buenas prácticas para protegerse en línea.</p>
-        </hgroup> 🛡️ Consejos para protegerte en línea En el mundo digital actual, la prevención es tu mejor defensa. Aquí tienes una lista de buenas prácticas recomendadas por expertos en ciberseguridad, incluyendo el equipo de Google: 🔐 Usa contraseñas fuertes y únicas Evita usar la misma contraseña en varios sitios. Crea combinaciones largas con letras, números y símbolos. Considera usar un gestor de contraseñas. 🔄 Activa la autenticación en dos pasos (2FA) Agrega una capa extra de seguridad a tus cuentas. Aunque alguien obtenga tu contraseña, no podrá acceder sin el segundo factor. 📲 Mantén tu software actualizado Actualiza regularmente tu sistema operativo, navegador y aplicaciones. Las actualizaciones corrigen vulnerabilidades que los atacantes podrían aprovechar. 🧠 Desconfía de lo inusual Si recibes un mensaje sospechoso, incluso si parece venir de un amigo o empresa conocida, verifica antes de hacer clic o responder. 🌐 Evita redes Wi-Fi públicas sin protección Si necesitas conectarte, usa una VPN para cifrar tu tráfico y proteger tu información. 🧹 Revisa tus permisos y privacidad Configura adecuadamente la privacidad en redes sociales y aplicaciones. No compartas más información de la necesaria. <h2>📬 Formulario de contacto sugerido</h2>
-        <h2>Modal con preguntas</h2> ¿Cuánto has aprendido durante este recorrido? ¡Pon a prueba tus conocimientos! 1️⃣ ¿Cuál de los siguientes conceptos forma parte de la triada de la ciberseguridad? (Inicio / Introducción a la ciberseguridad) - [ ] Curiosidad, intuición, análisis - [x] Confidencialidad, integridad, disponibilidad - [ ] Cortafuegos, antivirus, autenticación - [ ] Prevención, reacción, mitigación 💡 Retroalimentación: La triada CIA es la base de la ciberseguridad: protege la confidencialidad, integridad y disponibilidad de la información. 2️⃣ ¿Cuál de las siguientes opciones representa un ejemplo de phishing? (Amenazas comunes) - [x] Un correo que aparenta ser de tu banco pidiendo validar tu cuenta - [ ] Un archivo adjunto que cifra tus documentos - [ ] Un ataque que satura un servidor con tráfico falso - [ ] Un programa espía que recopila información en segundo plano 💡 Retroalimentación: El phishing engaña al usuario para robar información haciéndose pasar por una fuente confiable. 3️⃣ ¿Qué práctica es recomendada para proteger tus cuentas personales? (Consejos de seguridad) - [ ] Usar la misma contraseña para todas tus cuentas - [x] Activar la autenticación en dos pasos (2FA) - [ ] Compartir tu contraseña solo con personas de confianza - [ ] Desactivar todas las actualizaciones automáticas 💡 Retroalimentación: El 2FA agrega una capa extra de seguridad, incluso si alguien obtiene tu contraseña. 4️⃣ ¿Qué tipo de ataque interrumpió servicios como Twitter y Spotify en 2016? (Casos reales / Carousel interactivo) - [ ] Ransomware - [ ] Phishing - [x] Ataque DDoS - [ ] Troyano bancario 💡 Retroalimentación: El ataque DDoS contra Dyn usó dispositivos IoT para saturar sus servidores y afectar servicios populares.
+      <table class="table table-dark table-hover">
+        <thead>
+          <tr class="text-center fs-3">
+            <th scope="col">Consejos de seguridad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>🔐 Usa contraseñas fuertes y únicas<br><small>Evita usar la misma contraseña en varios sitios. Crea combinaciones largas con letras, números y símbolos. Considera usar un gestor de contraseñas.</small></td>
+          </tr>
+          <tr>
+            <td>🔄 Activa la autenticación en dos pasos (2FA)<br><small>Agrega una capa extra de seguridad a tus cuentas. Aunque alguien obtenga tu contraseña, no podrá acceder sin el segundo factor.</small></td>
+          </tr>
+          <tr>
+            <td>📲 Mantén tu software actualizado<br><small>Actualiza regularmente tu sistema operativo, navegador y aplicaciones. Las actualizaciones corrigen vulnerabilidades que los atacantes podrían aprovechar.</small></td>
+          </tr>
+          <tr>
+            <td>🧠 Desconfía de lo inusual<br><small>Si recibes un mensaje sospechoso, incluso si parece venir de un amigo o empresa conocida, verifica antes de hacer clic o responder.</small></td>
+          </tr>
+          <tr>
+            <td>🌐 Evita redes Wi-Fi públicas sin protección<br><small>Si necesitas conectarte, usa una VPN para cifrar tu tráfico y proteger tu información.</small></td>
+          </tr>
+          <tr>
+            <td>🧹 Revisa tus permisos y privacidad<br><small>Configura adecuadamente la privacidad en redes sociales y aplicaciones. No compartas más información de la necesaria.</small></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-12 col-md-8">
+          <form class="bg-light p-4 rounded needs-validation bg-transparent" novalidate>
+            <h4 class="mb-4 fw-semibold form-title py-3 text-center">¿Conversemos? 📩</h4>
+            <div class="mb-3">
+              <label for="nombreCompleto" class="form-label">Nombre completo</label>
+              <input type="text" class="form-control" id="nombreCompleto" placeholder="Pedro Pedro" required>
+              <div class="invalid-feedback">Ingresa tu nombre completo.</div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico corporativo</label>
+              <input type="email" class="form-control" id="email" placeholder="pedro.pedro@miempresa.com" required>
+              <div class="invalid-feedback">Introduce un correo válido.</div>
+            </div>
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Número de teléfono (opcional)</label>
+              <input type="tel" class="form-control" id="telefono" placeholder="+56 9 1234 5678">
+            </div>
+            <div class="mb-3">
+              <label for="empresa" class="form-label">Empresa / Organización</label>
+              <input type="text" class="form-control" id="empresa" placeholder="TechConsulting S.A." required>
+              <div class="invalid-feedback">Nombre de empresa requerido.</div>
+            </div>
+            <div class="mb-3">
+              <label for="cargo" class="form-label">Cargo dentro de la empresa</label>
+              <input type="text" class="form-control" id="cargo" placeholder="Jefe de Recursos Humanos" required>
+              <div class="invalid-feedback">Especifica tu cargo.</div>
+            </div>
+            <div class="mb-3">
+              <label for="empleados" class="form-label">Número de empleados</label>
+              <input type="number" class="form-control" id="empleados" placeholder="15" required>
+              <div class="invalid-feedback">Indica una cantidad estimada.</div>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">¿En qué podemos ayudarte?</label>
+              <textarea class="form-control" id="mensaje" rows="3" placeholder="Quisiera información sobre planes de certificación grupal." required></textarea>
+              <div class="invalid-feedback">Este campo no puede estar vacío.</div>
+            </div>
+            <div class="form-check mb-3">
+              <input type="checkbox" class="form-check-input" id="terms" required>
+              <label class="form-check-label" for="terms">Acepto ser contactado por un representante de seguridad TI.</label>
+              <div class="invalid-feedback">Debes aceptar para continuar.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar solicitud</button>
+          </form>
+        </div>
       </div>
+      <div class="col-md-2"></div>
+
     </main>
     <footer class="container-fluid footer text-center d-flex align-items-center py-4">
       <p class="flex-grow-1 ms-lg-5"> Made with <i class="fa-solid fa-heart mx-1"></i> by 8Fold </p>
       <p class="footer__contactus me-5 fs-6">Contact us <a href="https://github.com/gh-de-carlos"><i class="fa-brands fa-github ms-1"></i></a></p>
     </footer>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="test-seguridad" tabindex="-1" aria-labelledby="testSeguridadLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="testSeguridadLabel">🛡️ Test de Seguridad</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <form id="formTestSeguridad">
+              <p class="mb-4">¿Cuánto has aprendido durante este recorrido? ¡Pon a prueba tus conocimientos!</p>
+              <!-- Question 1 -->
+              <div class="mb-3">
+                <label class="form-label">1️⃣ ¿Cuál de los siguientes conceptos forma parte de la triada de la ciberseguridad?</label>
+                <div>
+                  <div><input type="radio" name="q1" value="0"> Curiosidad, intuición, análisis</div>
+                  <div><input type="radio" name="q1" value="1"> Confidencialidad, integridad, disponibilidad</div>
+                  <div><input type="radio" name="q1" value="0"> Cortafuegos, antivirus, autenticación</div>
+                  <div><input type="radio" name="q1" value="0"> Prevención, reacción, mitigación</div>
+                </div>
+                <div class="feedback text-success mt-2" id="feedback1"></div>
+              </div>
+              <!-- Question 2 -->
+              <div class="mb-3">
+                <label class="form-label">2️⃣ ¿Cuál de las siguientes opciones representa un ejemplo de phishing?</label>
+                <div>
+                  <div><input type="radio" name="q2" value="1"> Un correo que aparenta ser de tu banco pidiendo validar tu cuenta</div>
+                  <div><input type="radio" name="q2" value="0"> Un archivo adjunto que cifra tus documentos</div>
+                  <div><input type="radio" name="q2" value="0"> Un ataque que satura un servidor con tráfico falso</div>
+                  <div><input type="radio" name="q2" value="0"> Un programa espía que recopila información en segundo plano</div>
+                </div>
+                <div class="feedback text-success mt-2" id="feedback2"></div>
+              </div>
+              <!-- Question 3 -->
+              <div class="mb-3">
+                <label class="form-label">3️⃣ ¿Qué práctica es recomendada para proteger tus cuentas personales?</label>
+                <div>
+                  <div><input type="radio" name="q3" value="0"> Usar la misma contraseña para todas tus cuentas</div>
+                  <div><input type="radio" name="q3" value="1"> Activar la autenticación en dos pasos (2FA)</div>
+                  <div><input type="radio" name="q3" value="0"> Compartir tu contraseña solo con personas de confianza</div>
+                  <div><input type="radio" name="q3" value="0"> Desactivar todas las actualizaciones automáticas</div>
+                </div>
+                <div class="feedback text-success mt-2" id="feedback3"></div>
+              </div>
+              <!-- Question 4 -->
+              <div class="mb-3">
+                <label class="form-label">4️⃣ ¿Qué tipo de ataque interrumpió servicios como Twitter y Spotify en 2016?</label>
+                <div>
+                  <div><input type="radio" name="q4" value="0"> Ransomware</div>
+                  <div><input type="radio" name="q4" value="0"> Phishing</div>
+                  <div><input type="radio" name="q4" value="1"> Ataque DDoS</div>
+                  <div><input type="radio" name="q4" value="0"> Troyano bancario</div>
+                </div>
+                <div class="feedback text-success mt-2" id="feedback4"></div>
+              </div>
+              <button type="button" class="btn btn-success mt-3" onclick="revisarTest()">✅ Revisar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
+
 
 </html>

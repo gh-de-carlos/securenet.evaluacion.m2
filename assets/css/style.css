@@ -69,6 +69,9 @@ h2 {
   background: linear-gradient(to left, #0a1741cc, #0c132ccc);
 }
 
+.form-title {
+  background: linear-gradient(to left, #03103acc, #0733c2cc);
+}
 .footer {
   background: linear-gradient(#00192ecc, #000000dd);
 }
