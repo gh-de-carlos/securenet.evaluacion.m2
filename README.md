@@ -14,20 +14,18 @@ Crear un sitio web responsivo e interactivo que informe sobre ciberseguridad, ap
 
 ## 👉 INSTRUCCIONES
 
-✅ ❓
-
 A. Estructura del proyecto
 
 Deberás diseñar un sitio web de tres páginas con el siguiente contenido:
 
-1. Inicio
-   1. Introducción a la ciberseguridad
-   2. Barra de navegación con enlaces a las demás secciones.
-   3. Imagen destacada con un mensaje llamativo.
+1. ✔️Inicio
+   1. ✔️Introducción a la ciberseguridad
+   2. ✔️Barra de navegación con enlaces a las demás secciones.
+   3. ✔️Imagen destacada con un mensaje llamativo.
 2. Amenazas Comunes
-   1. Información sobre ataques cibernéticos como phishing, ransomware, malware y ataques DDoS.
-   2. Uso de tarjetas o secciones interactivas para cada tipo de amenaza.
-   3. Un carousel o acordeón con ejemplos de casos reales.
+   1. ✔️Información sobre ataques cibernéticos como phishing, ransomware, malware y ataques DDoS.
+   2. ✔️Uso de tarjetas o secciones interactivas para cada tipo de amenaza.
+   3. ✔️Un carousel o acordeón con ejemplos de casos reales.
 3. Consejos de seguridad
    1. Lista de buenas prácticas para protegerse en línea.
    2. Formulario de contacto para solicitar más información (con validación en Javascript).
@@ -35,18 +33,18 @@ Deberás diseñar un sitio web de tres páginas con el siguiente contenido:
 
 B. Diseño y estilo
 
-- HTML5: uso de etiquetas semánticas para estructurar correctamente el contenido.
-- CSS3 y Bootstrap: implementación de estilos modernos y diseño responsivo con media queries.
+- ✔️HTML5: uso de etiquetas semánticas para estructurar correctamente el contenido.
+- ✔️CSS3 y Bootstrap: implementación de estilos modernos y diseño responsivo con media queries.
 - jQuery: uso de efectos interactivos como ocultar/mostrar información, manipulación del DOM y validaciones.
-- Bootstrap + jQuery plugins: inclusión de al menos un carousel, acordeon o modal.
+- ✔️Bootstrap + jQuery plugins: inclusión de al menos un carousel, acordeon o modal.
 
 C. Uso de git y GitHub
 
-- Inicializar el repositorio con `git init`.
+- ✔️Inicializar el repositorio con `git init`.
 - Realizar mínimo 5 commits con mensajes descriptivos.
-- Configurar `.gitignore` para excluir archivos innecesarios.
-- Publicar el código en GitHub y compartir el enlace.
-- Documentar el proyecto en `README.md`, explicando su estructura y funcionalidad. 
+- ✔️Configurar `.gitignore` para excluir archivos innecesarios.
+- ✔️Publicar el código en GitHub y compartir el enlace.
+- ✔️Documentar el proyecto en `README.md`, explicando su estructura y funcionalidad. 
 
 ## 📁 ESTRUCTURA DEL PROYECTO
 
