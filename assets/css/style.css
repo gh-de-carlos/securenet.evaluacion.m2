@@ -76,6 +76,10 @@ h2 {
   background: linear-gradient(#00192ecc, #000000dd);
 }
 
+.btn-danger {
+  background-color: #dc1d1b !important;
+}
+
 .footer__img {
   width: 20px;
   border-radius: 16px;

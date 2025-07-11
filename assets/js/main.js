@@ -45,3 +45,18 @@ modalTest.addEventListener('hidden.bs.modal', () => {
     fb.classList.remove("text-success", "text-danger", "text-warning");
   });
 });
+
+// PEDACITO DE JQUERY PORQUE LO PIDE LA PAUTA
+$('td').on('mouseenter', function() {
+  $(this).css({
+    transform: 'scale(1.025)',
+    fontSize: '1.125rem',
+    transition: 'transform 0.1s ease'
+  });
+}).on('mouseleave', function() {
+  $(this).css({
+    transform: 'scale(1)',
+    fontSize: '1rem',
+    transition: 'transform 0.3s ease'
+  });
+});

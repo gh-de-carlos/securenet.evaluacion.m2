@@ -2,6 +2,13 @@
 
 ![mockup o entrega del ejercicio][0]
 
+## 👀 NOTAS
+
+- Se han utilizado los componentes navbar, card, accordion y modal de Bootstrap, además de usarlo para darle estructura a un formulario y tabla.
+- Se ha utilizado jquery en la página `/assets/pages/consejos.html` para crear un efecto sobre la tabla con consejos de seguridad.
+- Se ha utilizado Javascript para activar los tooltips (utilizados en el botón de realizar el formulario consejos>navbar) y para evaluar el quizz.
+- Se ha utilizado un modal para crear un quizz con retroalimentación. El botón rojo **¿Cuánto aprendí?** lanza el modal.
+
 ## COnTEXTO
 
 La ciberseguridad es un tema de gran importancia en la era digital, ya que permite proteger la información y la privacidad en línea. Para esta actividad, deberás desarrollar un sitio web informativo sobre ciberseguridad, en el que se expliquen conceptos clave, se brinden consejos de seguridad y se presenten ejemplos de ataques comunes y cómo prevenirlos.
@@ -35,7 +42,7 @@ B. Diseño y estilo
 
 - ✔️HTML5: uso de etiquetas semánticas para estructurar correctamente el contenido.
 - ✔️CSS3 y Bootstrap: implementación de estilos modernos y diseño responsivo con media queries.
-- jQuery: uso de efectos interactivos como ocultar/mostrar información, manipulación del DOM y validaciones.
+- ✔️jQuery: uso de efectos interactivos como ocultar/mostrar información, manipulación del DOM y validaciones.
 - ✔️Bootstrap + jQuery plugins: inclusión de al menos un carousel, acordeon o modal.
 
 C. Uso de git y GitHub
@@ -50,23 +57,19 @@ C. Uso de git y GitHub
 
 ```
 📁 m2-evaluacion-modulo/  
+├── .gitignore
 ├── index.html  
 ├── favicon.png  
 ├── README.md  
 └── 📁assets/  
     ├── 📁css/  
-    │   └── style.css  
     ├── 📁img/  
     ├── 📁js/  
-    │   └── main.js
+    ├── 📁pages/  
+    │   ├── amenazas.html
+    │   └── consejos.html
     └── 📁utils/  
-        ├── mockuppng
-        └── blablah
 ```
-
-## 👀 NOTAS
-
-- Joe Pino...
 
 ## 📖 DOCUMENTACIÓN CONSULTADA
 
